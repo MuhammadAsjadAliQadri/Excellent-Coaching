@@ -1,0 +1,17 @@
+body{ 
+    background-color: lightskyblue;
+    height: 100vh ;
+
+}
+.back{
+    box-shadow: 5px 5px 20px black;
+}
+.btn{
+    background: #fdae1b;
+    border-bottom-left-radius: 0% !important;
+    color: #ffffff;
+}
+.btn:hover{
+    background: #116e63;
+    color: #ffffff;
+}

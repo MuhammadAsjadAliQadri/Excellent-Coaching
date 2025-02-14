@@ -1,0 +1,73 @@
+/* navbar */
+.navbar {
+    box-shadow: 2px 12px 15px black;
+}
+.apply-now-btn {
+    background-color: #ff8c00 !important;
+    border-bottom-left-radius: 0px !important;
+}
+.apply-now-btn:hover {
+    background-color: #007B5E !important;
+    color: white !important;
+}
+/* banner */
+.top-banner {
+    background-image: url(../images/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/* news */
+.news-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.news-content {
+    text-align: left;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+.image1{
+    height: 50vh !important;
+}
+.btn{
+    background: #ff8c00 !important;
+    border-bottom-left-radius: 0px !important;
+    color: #ffffff !important;
+}
+.btn:hover{
+    background: #116e63 !important;
+    color: #ffffff !important;
+}
+.badge{
+    background: #116e63;
+}
+.carousel-control-prev,
+.carousel-control-next{
+width: 35px !important;
+height: 35px !important;
+background-color: #fdae1b !important;
+border-radius: 50%;
+margin-top: 18% !important;
+margin-left: 2% !important;
+margin-right: 2% !important;
+}
+/* Hover Effect */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+background-color: #116e63 !important;
+}
+/* color */
+.bg-orange {
+    background-color: #ff8c00 !important;
+}
+.text-orange {
+    color: #ff8c00;
+}

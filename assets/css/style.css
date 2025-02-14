@@ -1,0 +1,77 @@
+.navbar {
+    box-shadow: 25px 0px 20px black;
+}
+/* color */
+.bg-orange {
+    background-color: #ff8c00;
+}
+.text-orange {
+    color: #ff8c00;
+}
+/* Slider */
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	margin-top: 25px;
+}
+.carousel-caption a {
+	text-decoration: none;
+	background: darkorange;
+	padding: 10px 30px;
+}
+/* Strenght */
+.Strenght-back {
+    background-image: url(../images/istockphoto-1307457287-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box-strength{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+.apply-now-btn {
+    background-color: #ff8c00;
+    border-bottom-left-radius: 0px !important;
+}
+.apply-now-btn:hover {
+    background-color: #007B5E;
+    color: white;
+}
+  /* Teacher Section */
+  .teacher-card-text {
+    color: #007B5E;
+  }
+  .card-img-top {
+    border-bottom-left-radius: 0px !important;
+  }
+  /* Event Section */
+  .event-card-btn {
+    border-bottom-left-radius: 0px !important;
+  }
+  .event-card-btn:hover {
+    background-color: #007B5E;
+    color: white;
+  }
+  /* border */
+  .border-bottom {
+    border-bottom-left-radius: 0px !important;
+  }
+  .border-bottom1 {
+    border-radius: 100px;
+    border-top-right-radius: 0px !important;
+  }
+  /* Why Chose Us Section */
+  .chose-card-iconbox {
+    border-top-left-radius: 25px;
+  }
+  /* HOVER */
+.hover-green:hover{
+  background-color: #007B5E !important;
+}

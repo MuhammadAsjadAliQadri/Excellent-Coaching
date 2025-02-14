@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellent Coaching</title>
+    <link rel="icon" href="assets/images/logo-icon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/detail-subjects.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script src="assets/js/object.js"></script>
+  <script src="assets/js/object2.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav id="nav-bar" class="position-sticky top-0 left-0 z-1"></nav>
+    <!-- banner -->
+    <div class="container-fliud top-banner p-5">
+      <h1 class="text-light d-flex justify-content-center p-5 fw-bold fs-1">
+        Subject
+      </h1>
+    </div>
+        <!-- detail-card -->
+         <!-- Commerece -->
+        <script>
+            var urlparams=new URLSearchParams(window.location.search)
+            var subjectidd=urlparams.get("id")
+            var subjectdetailss= homecard.find(d=>d.id==subjectidd)
+            if (subjectidd=="1") {
+            if(subjectdetailss){ 
+            document.write(`
+                            <div class="container mt-5">
+        <div class="course-header text-center">
+                  <h6 class="text-decoration-underline text-orange mt-5"><i class="fa-solid fa-book-open-reader" style="color: #FFD43B;"></i> OUR COURSES</h6>
+                <h1 class="fw-bold">
+                    ${subjectdetailss.title}
+                </h1>
+                <p class="text-orange">${subjectdetailss.des}</p>
+        </div>
+        
+        <div class="course-content mt-4">
+            <h3 class="text-center">Course Details</h3>
+            <table class="table table-bordered mb-5">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Instructor</th>
+                        <th>Price</th>
+                        <th>Duration</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>${subjectdetailss.subject1}</td>
+                        <td>${subjectdetailss.teacher1}</td>
+                        <td>${subjectdetailss.price1}</td>
+                        <td>${subjectdetailss.duration1}</td>
+                        <td><a href="detail-commerce.html?id=1" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject2}</td>
+                        <td>${subjectdetailss.teacher2}</td>
+                        <td>${subjectdetailss.price2}</td>
+                        <td>${subjectdetailss.duration2}</td>
+                        <td><a href="detail-commerce.html?id=2" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject3}</td>
+                        <td>${subjectdetailss.teacher3}</td>
+                        <td>${subjectdetailss.price3}</td>
+                        <td>${subjectdetailss.duration3}</td>
+                        <td><a href="detail-commerce.html?id=3" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject4}</td>
+                        <td>${subjectdetailss.teacher4}</td>
+                        <td>${subjectdetailss.price4}</td>
+                        <td>${subjectdetailss.duration4}</td>
+                        <td><a href="detail-commerce.html?id=4" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+                        `)}
+            else{
+                alert=("Not available");
+                window.location.href("index.html")
+            }}
+            
+        </script>
+         <!-- Science -->
+        <script>
+            var urlparams=new URLSearchParams(window.location.search)
+            var subjectidd=urlparams.get("id")
+            var subjectdetailss= homecard.find(d=>d.id==subjectidd)
+            if (subjectidd=="2") {
+            if(subjectdetailss){ 
+            document.write(`
+                            <div class="container mt-5">
+        <div class="course-header text-center">
+                  <h6 class="text-decoration-underline text-orange mt-5"><i class="fa-solid fa-book-open-reader" style="color: #FFD43B;"></i> OUR COURSES</h6>
+                <h1 class="fw-bold">
+                    ${subjectdetailss.title}
+                </h1>
+                <p class="text-orange">${subjectdetailss.des}</p>
+        </div>
+        
+        <div class="course-content mt-4">
+            <h3 class="text-center">Course Details</h3>
+            <table class="table table-bordered mb-5">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Instructor</th>
+                        <th>Price</th>
+                        <th>Duration</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>${subjectdetailss.subject1}</td>
+                        <td>${subjectdetailss.teacher1}</td>
+                        <td>${subjectdetailss.price1}</td>
+                        <td>${subjectdetailss.duration1}</td>
+                        <td><a href="detail-science.html?id=1" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject2}</td>
+                        <td>${subjectdetailss.teacher2}</td>
+                        <td>${subjectdetailss.price2}</td>
+                        <td>${subjectdetailss.duration2}</td>
+                        <td><a href="detail-science.html?id=2" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject3}</td>
+                        <td>${subjectdetailss.teacher3}</td>
+                        <td>${subjectdetailss.price3}</td>
+                        <td>${subjectdetailss.duration3}</td>
+                        <td><a href="detail-science.html?id=3" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject4}</td>
+                        <td>${subjectdetailss.teacher4}</td>
+                        <td>${subjectdetailss.price4}</td>
+                        <td>${subjectdetailss.duration4}</td>
+                        <td><a href="detail-science.html?id=4" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+`)}
+            else{
+                alert=("Not available");
+                window.location.href("index.html")
+            }}
+            
+        </script>
+         <!-- Arts -->
+        <script>
+            var urlparams=new URLSearchParams(window.location.search)
+            var subjectidd=urlparams.get("id")
+            var subjectdetailss= homecard.find(d=>d.id==subjectidd)
+            if (subjectidd=="3") {
+            if(subjectdetailss){ 
+            document.write(`
+                            <div class="container mt-5">
+        <div class="course-header text-center">
+                  <h6 class="text-decoration-underline text-orange mt-5"><i class="fa-solid fa-book-open-reader" style="color: #FFD43B;"></i> OUR COURSES</h6>
+                <h1 class="fw-bold">
+                    ${subjectdetailss.title}
+                </h1>
+                <p class="text-orange">${subjectdetailss.des}</p>
+        </div>
+        
+        <div class="course-content mt-4">
+            <h3 class="text-center">Course Details</h3>
+            <table class="table table-bordered mb-5">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Instructor</th>
+                        <th>Price</th>
+                        <th>Duration</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>${subjectdetailss.subject1}</td>
+                        <td>${subjectdetailss.teacher1}</td>
+                        <td>${subjectdetailss.price1}</td>
+                        <td>${subjectdetailss.duration1}</td>
+                        <td><a href="detail-arts.html?id=1" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject2}</td>
+                        <td>${subjectdetailss.teacher2}</td>
+                        <td>${subjectdetailss.price2}</td>
+                        <td>${subjectdetailss.duration2}</td>
+                        <td><a href="detail-arts.html?id=2" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject3}</td>
+                        <td>${subjectdetailss.teacher3}</td>
+                        <td>${subjectdetailss.price3}</td>
+                        <td>${subjectdetailss.duration3}</td>
+                        <td><a href="detail-arts.html?id=3" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject4}</td>
+                        <td>${subjectdetailss.teacher4}</td>
+                        <td>${subjectdetailss.price4}</td>
+                        <td>${subjectdetailss.duration4}</td>
+                        <td><a href="detail-arts.html?id=4" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+`)}
+            else{
+                alert=("Not available");
+                window.location.href("index.html")
+            }}
+            
+        </script>
+         <!-- Mathematics -->
+        <script>
+            var urlparams=new URLSearchParams(window.location.search)
+            var subjectidd=urlparams.get("id")
+            var subjectdetailss= homecard2.find(d=>d.id==subjectidd)
+            if (subjectidd=="4") {
+                if(subjectdetailss){ 
+            document.write(`
+                            <div class="container mt-5">
+        <div class="course-header text-center">
+                  <h6 class="text-decoration-underline text-orange mt-5"><i class="fa-solid fa-book-open-reader" style="color: #FFD43B;"></i> OUR COURSES</h6>
+                <h1 class="fw-bold">
+                    ${subjectdetailss.title}
+                </h1>
+                <p class="text-orange">${subjectdetailss.des}</p>
+        </div>
+        
+        <div class="course-content mt-4">
+            <h3 class="text-center">Course Details</h3>
+            <table class="table table-bordered mb-5">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Instructor</th>
+                        <th>Price</th>
+                        <th>Duration</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>${subjectdetailss.subject1}</td>
+                        <td>${subjectdetailss.teacher1}</td>
+                        <td>${subjectdetailss.price1}</td>
+                        <td>${subjectdetailss.duration1}</td>
+                        <td><a href="detail-Maths.html?id=1" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject2}</td>
+                        <td>${subjectdetailss.teacher2}</td>
+                        <td>${subjectdetailss.price2}</td>
+                        <td>${subjectdetailss.duration2}</td>
+                        <td><a href="detail-Maths.html?id=2" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject3}</td>
+                        <td>${subjectdetailss.teacher3}</td>
+                        <td>${subjectdetailss.price3}</td>
+                        <td>${subjectdetailss.duration3}</td>
+                        <td><a href="detail-Maths.html?id=3" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject4}</td>
+                        <td>${subjectdetailss.teacher4}</td>
+                        <td>${subjectdetailss.price4}</td>
+                        <td>${subjectdetailss.duration4}</td>
+                        <td><a href="detail-Maths.html?id=4" class="btn btn-primary btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+                        `)}
+            else{
+                alert=("Not available");
+            }}
+            
+        </script>
+         <!-- LAnguage -->
+        <script>
+            var urlparams=new URLSearchParams(window.location.search)
+            var subjectidd=urlparams.get("id")
+            var subjectdetailss= homecard2.find(d=>d.id==subjectidd)
+            if (subjectidd=="5") {
+            if(subjectdetailss){ 
+            document.write(`
+                            <div class="container mt-5">
+        <div class="course-header text-center">
+                  <h6 class="text-decoration-underline text-orange mt-5"><i class="fa-solid fa-book-open-reader" style="color: #FFD43B;"></i> OUR COURSES</h6>
+                <h1 class="fw-bold">
+                    ${subjectdetailss.title}
+                </h1>
+                <p class="text-orange">${subjectdetailss.des}</p>
+        </div>
+        
+        <div class="course-content mt-4">
+            <h3 class="text-center">Course Details</h3>
+            <table class="table table-bordered mb-5">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Instructor</th>
+                        <th>Price</th>
+                        <th>Duration</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>${subjectdetailss.subject1}</td>
+                        <td>${subjectdetailss.teacher1}</td>
+                        <td>${subjectdetailss.price1}</td>
+                        <td>${subjectdetailss.duration1}</td>
+                        <td><a href="detail-Language.html?id=1" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject2}</td>
+                        <td>${subjectdetailss.teacher2}</td>
+                        <td>${subjectdetailss.price2}</td>
+                        <td>${subjectdetailss.duration2}</td>
+                        <td><a href="detail-Language.html?id=2" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject3}</td>
+                        <td>${subjectdetailss.teacher3}</td>
+                        <td>${subjectdetailss.price3}</td>
+                        <td>${subjectdetailss.duration3}</td>
+                        <td><a href="detail-Language.html?id=3" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject4}</td>
+                        <td>${subjectdetailss.teacher4}</td>
+                        <td>${subjectdetailss.price4}</td>
+                        <td>${subjectdetailss.duration4}</td>
+                        <td><a href="detail-Language.html?id=4" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+                        `)}
+            else{
+                alert=("Not available");
+            }}
+            
+        </script>
+         <!-- Technology -->
+        <script>
+            var urlparams=new URLSearchParams(window.location.search)
+            var subjectidd=urlparams.get("id")
+            var subjectdetailss= homecard2.find(d=>d.id==subjectidd)
+            if (subjectidd=="6") {
+            if(subjectdetailss){ 
+            document.write(`
+                            <div class="container mt-5">
+        <div class="course-header text-center">
+                  <h6 class="text-decoration-underline text-orange mt-5"><i class="fa-solid fa-book-open-reader" style="color: #FFD43B;"></i> OUR COURSES</h6>
+                <h1 class="fw-bold">
+                    ${subjectdetailss.title}
+                </h1>
+                <p class="text-orange">${subjectdetailss.des}</p>
+        </div>
+        
+        <div class="course-content mt-4">
+            <h3 class="text-center">Course Details</h3>
+            <table class="table table-bordered mb-5">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Instructor</th>
+                        <th>Price</th>
+                        <th>Duration</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>${subjectdetailss.subject1}</td>
+                        <td>${subjectdetailss.teacher1}</td>
+                        <td>${subjectdetailss.price1}</td>
+                        <td>${subjectdetailss.duration1}</td>
+                        <td><a href="detail-Technology.html?id=1" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject2}</td>
+                        <td>${subjectdetailss.teacher2}</td>
+                        <td>${subjectdetailss.price2}</td>
+                        <td>${subjectdetailss.duration2}</td>
+                        <td><a href="detail-Technology.html?id=2" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject3}</td>
+                        <td>${subjectdetailss.teacher3}</td>
+                        <td>${subjectdetailss.price3}</td>
+                        <td>${subjectdetailss.duration3}</td>
+                        <td><a href="detail-Technology.html?id=3" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                    <tr>
+                        <td>${subjectdetailss.subject4}</td>
+                        <td>${subjectdetailss.teacher4}</td>
+                        <td>${subjectdetailss.price4}</td>
+                        <td>${subjectdetailss.duration4}</td>
+                        <td><a href="detail-Technology.html?id=4" class="btn bg-orange hover-green btn-sm rounded-5 event-card-btn text-light fw-bold" target="_blank">VIEW DEATALS</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+                        `)}
+            else{
+                alert=("Not available");
+            }}
+            
+        </script>
+<!-- footer -->
+ <footer></footer>
+</body>
+</html>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/footer.js"></script>
+<script src="assets/js/navbar.js"></script>

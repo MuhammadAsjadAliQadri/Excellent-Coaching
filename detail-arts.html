@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellent Coaching</title>
+    <link rel="icon" href="assets/images/logo-icon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/detail-subjects.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav id="nav-bar" class="position-sticky top-0 left-0 z-1"></nav>
+    <!-- banner -->
+    <div class="container-fliud top-banner p-5">
+        <h1 class="text-light d-flex justify-content-center p-5 fw-bold fs-1">Subject</h1>
+      </div>
+    <script src="assets/js/object2.js"></script>
+    <!-- detail-card -->
+    <script>
+        var urlparams=new URLSearchParams(window.location.search)
+        var subjectid=urlparams.get("id")
+        var subjectdetails=subjectarts.find(d=>d.id==subjectid)
+        if(subjectdetails){
+        document.write(`
+                    <div class="container text-center mt-5 pt-5 mb-5">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12" data-aos="fade-up-right" data-aos-duration="1200">
+                    <img src="${subjectdetails.img}" class="img-fluid h-100 border-bottom1" alt="...">
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 border-0" data-aos="fade-up-left" data-aos-duration="1200">
+                    <ul class="">
+                        <li class="list-group-item fw-bold fs-1 text-start">${subjectdetails.title}</li>
+                        <li class="list-group-item text-start lh-lg">${subjectdetails.description}</li>
+                        <li class="list-group-item text-start d-flex lh-lg"><i class="fa-solid fa-clock me-2 mt-2" style="color: #ff8800;"></i><p class="me-2"><b>Time:</b></p>${subjectdetails.time}</li>
+                        <li class="list-group-item text-start d-flex lh-lg"><i class="fa-solid fa-user me-2 mt-2"  style="color: #ff8800;"></i><p class="me-2"><b>Teacher:</b></p>${subjectdetails.teacher}</li>
+                        <li class="list-group-item text-start d-flex lh-lg"><i class="fa-solid fa-sack-dollar  me-2 mt-2" style="color: #ff8800;"></i><p class="me-2"><b>Price:</b></p>${subjectdetails.price}</li>
+                        <li class="list-group-item text-start d-flex lh-lg"><i class="fa-solid fa-location-dot  me-2 mt-2" style="color: #ff8800;"></i><p class="me-2"><b>Location:</b></p>${subjectdetails.location}</li>
+                        <a href="${subjectdetails.word}" download="assigment.docx" class="btn bg-orange hover-green rounded-5 event-card-btn text-light fw-bold" >DOWNLOAD MORE INFORMATION</a>
+                    </ul>
+                </div>
+            </div>
+            </div>
+                    `)}
+        else{
+            alert=("Not available");
+            window.location.href("index.html")
+        }
+    </script>
+    <!-- footer -->
+    <footer></footer>
+</body>
+</html>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/navbar.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="assets/js/footer.js"></script>

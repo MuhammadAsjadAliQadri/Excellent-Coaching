@@ -1,0 +1,91 @@
+.footer {
+    background-color: #002147; 
+    color: #ffffff;  
+    padding: 2rem;
+}
+
+.footer a {
+    color: #ff8c00; 
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.footer .footer-logo span {
+    color: #007B5E; 
+}
+
+.footer .contact-info i {
+    color: #ff8c00; 
+    margin-right: 8px;
+}
+.fnews{
+    margin-left:3%;
+}
+.box1{
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    
+}
+.footer .subscribe-btn {
+    background-color: #fda31b;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 25px;
+    position: absolute;
+    height:47px;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 7%;
+    border-bottom-left-radius: 0%;
+}
+.footer .subscribe-btn:hover {
+    background-color: #ffffff;
+    color: #fda31b;
+   
+}
+.footer .social-icons a {
+    font-size: 1.5rem;
+    color: #ff8c00;
+    margin-right: 15px;
+}
+
+.footer .social-icons a:hover {
+    color: #e07a00;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ffffff;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.mainfooter{
+    padding-left: 6%;
+}
+.footer-menu li a{
+    color:#ffffff;
+}
+.footer-menu li{
+    transition: transform 1s ease;
+}
+.footer-menu li:hover{
+    transform: translateX(10px);
+}
+.icon{
+    background-color: #fdae1b;
+    width: 7%;
+    height: 23px;
+    border-radius: 7px;
+    border-bottom-left-radius: 0%;
+
+}

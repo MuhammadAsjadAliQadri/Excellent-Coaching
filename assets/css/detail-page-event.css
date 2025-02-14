@@ -1,0 +1,26 @@
+/* navbar */
+.navbar {
+    box-shadow: 25px 0px 20px black;
+}
+.apply-now-btn {
+    background-color: #ff8c00;
+    border-bottom-left-radius: 0px !important;
+}
+.apply-now-btn:hover {
+    background-color: #007B5E;
+    color: white;
+}
+/* banner */
+.top-banner {
+    background-image: url(../images/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/* border */
+.border-bottom1 {
+    border:solid 5px #007B5E;
+    border-radius: 100px;
+    border-bottom-left-radius: 0px !important;
+}

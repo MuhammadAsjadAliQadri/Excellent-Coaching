@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExcellentCoaching</title>
+    <link rel="icon" href="assets/images/logo-icon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/courses.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script src="assets/js/object.js"></script>
+</head>
+<body>
+  <nav id="nav-bar" class="position-sticky top-0 left-0 z-1"></nav>
+  <!-- banner -->
+  <div class="container-fliud top-banner p-5">
+    <h1 class="text-light d-flex justify-content-center p-5 fw-bold fs-1">Courses</h1>
+  </div>
+  <!-- courses cards -->
+  <div class="container d-flex align-items-center flex-column">
+    <h6 class="text-decoration-underline text-orange mt-5"><i class="fa-solid fa-book-open-reader" style="color: #FFD43B;"></i> OUR COURSES</h6>
+    <h1 class="fw-bold">
+      Let's Check Our <span class="text-orange">Courses</span>
+    </h1>
+    <div class="row d-flex justify-content-center mb-5 ms-5 ps-5">
+      <script>
+        homecard.forEach(function (data) {
+          document.write(`
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="card border-0 p-2" style="width: 15rem;">
+                            <img src="${data.img}" class="card-img-top rounded-5 border-bottom" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">${data.title}</h5>
+                                <p class="card-text">${data.des}</p>
+                                <a href="detail-subjects.html?id=${data.id}" class="btn bg-orange hover-green text-light fw-bolder ms-5" target="_blank">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    `);
+        });
+      </script>
+      <script>
+        homecard2.forEach(function (data) {
+          document.write(`
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="card border-0 p-2" style="width: 15rem;">
+                            <img src="${data.img}" class="card-img-top rounded-5 border-bottom" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">${data.title}</h5>
+                                <p class="card-text">${data.des}</p>
+                                <a href="detail-subjects.html?id=${data.id}" class="btn bg-orange hover-green text-light fw-bolder ms-5" target="_blank">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    `);
+        });
+      </script>
+    </div>
+  </div>
+  <div class="container d-flex flex-column align-items-center p-5 ">
+    <a href="assets/word-documentation/Excellent_Coaching_Price_List_Formatted.docx" class="hover-green btn bg-orange rounded-5 align-items-center text-light fw-bold ">DOWNLOAD PRICE LIST OF ALL COURSES</a>
+  </div>
+  <!-- footer -->
+  <footer></footer>
+</body>
+</html>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/navbar.js"></script>
+<script src="assets/js/footer.js"></script>

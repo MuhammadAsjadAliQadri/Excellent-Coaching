@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellent Coaching</title>
+    <link rel="icon" href="assets/images/logo-icon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/news.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <script src="assets/js/object.js"></script>
+</head>
+<body>
+        <!-- navbar -->
+  <nav id="nav-bar" class="position-sticky top-0 left-0 z-1"></nav>
+  <!-- banner -->
+      <div class="container-fliud top-banner p-5">
+        <h1 class="text-light d-flex justify-content-center p-5 fw-bold fs-1">
+          Blog
+        </h1>
+      </div>
+<!-- top slider -->
+    <section class="news-section">
+        <div class="container">
+            <h6 class="text-decoration-underline text-orange mt-5"><i class="fa-solid fa-book-open-reader" style="color: #FFD43B;"></i> Blogs</h6>
+            <h1 class="fw-bold">
+              Latest News & <span class="text-orange">Blogs</span>
+            </h1>
+                <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <img src="assets/images/8.jpg" class="image1" alt="">
+                            </div>
+                            <div class="col-md-5 news-content">
+                                <span class="badge">STUDENTS</span>
+                                <h4>News Headline 1</h4>
+                                <p>There are many variations of passages the majority have suffered in some injected humour or randomised words which don't look even slightly believable.</p>
+                                <a href="#" class="btn rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <img src="assets/images/7.jpg" class="image1" alt="">
+                            </div>
+                            <div class="col-md-5 news-content">
+                                <span class="badge">TECH</span>
+                                <h4>News Headline 2</h4>
+                                <p>Emerging technologies are shaping the future of industries worldwide.Cybersecurity remains a top priority as technology becomes more integrated into our daily lives.</p>
+                                <a href="#" class="btn rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <img src="assets/images/10.webp" class="image1" alt="">
+                            </div>
+                            <div class="col-md-5 news-content">
+                                <span class="badge">BUSINESS</span>
+                                <h4>News Headline 3</h4>
+                                <p>New initiatives to help small businesses grow with AI. Smart AI solutions are driving efficiency and profitability in modern businesses.</p>
+                                <a href="#" class="btn rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <img src="assets/images/9.webp" class="image1" alt="">
+                            </div>
+                            <div class="col-md-5 news-content">
+                                <span class="badge">SCIENCE</span>
+                                <h4>News Headline 4</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                <a href="#" class="btn rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- card -->
+    <div class="container d-flex align-items-center flex-column">
+        <h6 class="text-decoration-underline text-orange mt-5"><i class="fa-solid fa-book-open-reader" style="color: #FFD43B;"></i> EVENTS</h6>
+        <h1 class="fw-bold">
+          Our Upcomming <span class="text-orange">Events</span>
+        </h1>
+        <div class="row d-flex justify-content-center mb-5">
+          <script>
+            eventcard.forEach(function (data) {
+              document.write(`
+                        <div class="col-md-3 col-lg-4 col-sm-12" data-aos="zoom-in" data-aos-duration="1500">
+                            <div class="card border-0 p-2" style="width: 15rem;">
+                              <p><i class="fa-solid fa-location-dot" style="color: #FFD43B;"></i> ABC Road, Karachi.</p>
+                                <img src="${data.img}" class="card-img-top rounded-5" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">${data.title}</h5>
+                                    <p class="card-text">${data.des}</p>
+                                    <a href="detail-page-event.html?id=${data.id}" class="btn bg-orange rounded-5 event-card-btn text-light fw-bold" target="_blank">JOIN NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        `);
+            });
+          </script>
+        </div>
+      </div>
+    <!-- footer -->
+    <footer></footer>
+</body>
+</html>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/navbar.js"></script>
+<script src="assets/js/footer.js"></script>

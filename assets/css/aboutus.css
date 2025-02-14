@@ -1,0 +1,93 @@
+/* navbar */
+.navbar {
+    box-shadow: 25px 0px 20px black;
+}
+.apply-now-btn {
+    background-color: #ff8c00;
+    border-bottom-left-radius: 0px !important;
+}
+.apply-now-btn:hover {
+    background-color: #007B5E;
+    color: white;
+}
+/* banner */
+.top-banner {
+    background-image: url(../images/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/* color */
+.bg-orange {
+    background-color: #ff8c00;
+}
+.text-orange {
+    color: #ff8c00;
+}
+.bg-green {
+    background-color: #007B5E;
+}
+/* zaid */
+body {
+    background-color: #f8f9fa;
+}
+.testimonial-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    border-bottom: 4px solid orange;
+}
+.rating {
+    color: #f4b400;
+}
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    margin-top: 15px;
+}
+.testimonial-card .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: orange;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+/* strenght */
+.Strenght-back {
+background-image: url(../images/istockphoto-1307457287-612x612.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+.box-strength{
+border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+/* color */
+.bg-orange {
+background-color: #ff8c00;
+}
+.text-orange {
+color: #ff8c00;
+}
